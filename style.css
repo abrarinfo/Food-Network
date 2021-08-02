@@ -1,0 +1,52 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.half-width{
+    display: flex;
+    margin: 7%;
+    align-items: center;
+}
+.text-div{
+    width: 48%;
+}
+.img-div{
+    width: 45%;
+}
+.grey-headings {
+    color: gray;
+    font-weight: 700;
+    font-size: 50px;
+}
+.gradiant-btn {
+    padding: 10px;
+    text-decoration: none;
+    background-image: linear-gradient(tomato,salmon);
+    color: #ffff;
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+}
+.grey-colored-text {
+    color: grey;
+    margin-bottom: 10%;
+}
+.colored-text {
+    color: salmon;
+}
+.healthy-img{
+    width: 100%;
+}
+.about-me {
+    display: flex;
+    align-items: center;
+    background-image: url("images/shapes/7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-img {
+    width: 50%;
+    height: 450px;
+    margin-left: 10%;
+    margin-top: 10%;
+}
