@@ -1,52 +1,223 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-.half-width{
-    display: flex;
-    margin: 7%;
-    align-items: center;
+
+h1 {
+    text-shadow: 3px 3px 6px gray;
 }
-.text-div{
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(45deg, salmon, tomato);
+    border-bottom-left-radius: 90%;
+    border-bottom-right-radius: 90%;
+}
+
+.navbar h1 span {
+    color: khaki;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.nav-item {
+    color: #ffff;
+    font-size: 15px;
+    margin: 20px;
+}
+
+.round-shape {
+    background-color: khaki;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.round-shape-2 {
+    background-color: crimson;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.half-width {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 7%;
+}
+
+.text-div {
     width: 48%;
 }
-.img-div{
+
+.img-div {
     width: 45%;
 }
+
 .grey-headings {
     color: gray;
     font-weight: 700;
     font-size: 50px;
 }
+
 .gradiant-btn {
     padding: 10px;
     text-decoration: none;
-    background-image: linear-gradient(tomato,salmon);
+    background-image: linear-gradient(tomato, salmon);
     color: #ffff;
     text-decoration: none;
     border: none;
     border-radius: 20px;
 }
+
 .grey-colored-text {
     color: grey;
     margin-bottom: 10%;
 }
+
 .colored-text {
     color: salmon;
 }
-.healthy-img{
+
+.healthy-img {
     width: 100%;
 }
+
 .about-me {
     display: flex;
-    align-items: center;
+    justify-content: center;
     background-image: url("images/shapes/7.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .about-img {
     width: 50%;
     height: 450px;
     margin-left: 10%;
     margin-top: 10%;
+}
+
+.recipie-text {
+    text-align: center;
+    margin: 2%;
+}
+
+.recipie-container {
+    display: flex;
+    justify-content: center;
+}
+
+.recipie-div {
+    padding: 1%;
+    height: 400px;
+    width: 270px;
+    margin: 2%;
+    box-shadow: 20px 20px 40px gray;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 8%;
+}
+
+.recipie-img {
+    height: 230px;
+    width: 270px;
+    border-radius: 10px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 1100px;
+    box-shadow: 20px 20px 40px gray;
+    margin: 10%;
+    border-radius: 20px;
+}
+
+.social-media-information {
+    text-align: center;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.social-media-information h1 {
+    font-size: 50px;
+}
+
+.place-container {
+    display: flex;
+    justify-content: center;
+}
+
+.order-option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.order-img {
+    width: 320px;
+    height: 180px;
+    margin: 20px;
+}
+
+.order-food {
+    margin: 50px;
+    padding: 50px;
+    box-shadow: 20px 20px 40px gray;
+    border-radius: 20px;
+}
+
+.places {
+    margin-top: 100px;
+}
+
+.places a {
+    text-decoration: none;
+    color: black;
+}
+
+.place-img {
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.place-item {
+    margin: 25px;
+    box-shadow: 20px 20px 40px gray;
+    border-radius: 20px;
+}
+
+.places h1 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    height: 190px;
+}
+
+footer h1 {
+    color: dimgrey;
 }
