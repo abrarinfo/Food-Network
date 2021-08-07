@@ -143,8 +143,12 @@ ul {
 .social-media {
     display: flex;
     justify-content: center;
-    align-items: center;
+}
+
+.social-media-information-container {
+    display: flex;
     justify-content: center;
+    align-items: center;
     height: 200px;
     width: 1100px;
     box-shadow: 20px 20px 40px gray;
@@ -153,9 +157,11 @@ ul {
 }
 
 .social-media-information {
-    text-align: center;
-    margin-left: 7%;
-    margin-right: 7%;
+    align-items: center;
+    margin: 30px;
+    /* text-align: center; */
+    /* margin-left: 7%;
+    margin-right: 7%; */
 }
 
 .social-media-information h1 {
@@ -189,7 +195,7 @@ ul {
 
 .review {
     display: flex;
-    justify-content: start;
+    justify-content: center;
 }
 
 .review-area {
